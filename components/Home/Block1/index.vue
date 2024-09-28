@@ -10,7 +10,7 @@
           arcu
         </p>
       </div>
-      <div class="flex justify-end pr-[138px] -top-60 relative">
+      <div class="flex justify-end -top-60 relative">
         <div class="relative">
           <img
             data-aos="fade-left"
@@ -29,7 +29,12 @@
           </div>
         </div>
       </div>
-      <div class="absolute bottom-20">
+      <div
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+        class="absolute bottom-20"
+      >
         <span class="rotate-90 inline-block -ml-5">
           <span>Scroll</span>
         </span>
@@ -46,12 +51,11 @@ import { onMounted } from "vue";
 
 onMounted(() => {
   AOS.init({
-    // 你可以在這裡添加 AOS 的選項配置
     duration: 800,
-    once: true, // 決定動畫是否只觸發一次
+    once: true,
   });
   if (process.client && window.AOS) {
-    window.AOS.refresh(); // 手動刷新 AOS
+    window.AOS.refresh();
   }
 });
 </script>
