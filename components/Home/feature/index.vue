@@ -1,5 +1,7 @@
 <template>
-  <div class="grid text-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-14">
+  <div
+    class="grid text-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-14 bg-white"
+  >
     <div>
       <div class="rounded-full p-5 w-32 h-32 bg-primary-200 m-auto mb-[39px]">
         <img src="/assets//Icon_fish.svg" alt="" />

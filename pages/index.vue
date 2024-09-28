@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col min-h-dvh">
+  <div class="flex flex-col min-h-dvh bg-white">
     <AppHeader />
     <div class="flex-1">
       <HomeBlock1 />

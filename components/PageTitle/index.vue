@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <h1 class="text-5xl">{{ title }}</h1>
-    <h2 v-if="subTitle">{{ subTitle }}</h2>
+  <div class="my-7">
+    <h1 class="text-5xl text-black">{{ title }}</h1>
+    <h2 class="text-[#4c4c4c] mt-4" v-if="subTitle">{{ subTitle }}</h2>
   </div>
 </template>
 
