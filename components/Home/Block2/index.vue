@@ -1,6 +1,6 @@
 <template>
-  <div class="flex bg-primary text-white justify-around items-center pb-20">
-    <div>
+  <div class="lg:flex bg-primary text-white justify-around items-center pb-20">
+    <div data-aos="fade-right">
       <img src="/assets/Image2.png" alt="" />
       <div class="text-5xl my-14">Start to plan your diet today</div>
       <p>
@@ -8,12 +8,12 @@
         arcu
       </p>
     </div>
-    <div>
+    <div data-aos="fade-left">
       <div class="mb-20">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque congue
         arcu
       </div>
-      <img src="/assets/Image3.png" alt="" />
+      <img src="/assets/Image3.png" class="w-full" alt="" />
     </div>
   </div>
 </template>

@@ -1,7 +1,7 @@
 <template>
   <div class="container py-11">
     <div class="grid grid-cols-1 md:grid-cols-2 gap-x-4 lg:gap-x-16 text-black">
-      <div>
+      <div data-aos="flip-left">
         <figure class="relative">
           <span
             class="bg-primary-50 absolute right-2 top-2 text-white px-8 py-3"
@@ -38,7 +38,7 @@
       </div>
       <!-- 卡片2 -->
 
-      <div>
+      <div data-aos="flip-right">
         <figure class="relative">
           <span
             class="bg-primary-50 absolute right-2 top-2 text-white px-8 py-3"

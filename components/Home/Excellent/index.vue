@@ -1,11 +1,11 @@
 <template>
   <div class="  ">
-    <div class="py-20 flex bg-primary-200">
-      <div>
+    <div class="py-20 md:flex bg-primary-200">
+      <div data-aos="fade-right">
         <img src="/assets//Image5.png" alt="" />
       </div>
       <div>
-        <div class="text-8xl">
+        <div class="md:text-8xl text-3xl text-black">
           Excellent <br />
           cook
         </div>

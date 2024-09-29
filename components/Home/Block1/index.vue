@@ -1,8 +1,8 @@
 <template>
-  <div class="bg-primary text-white px-28">
+  <div class="bg-primary text-white lg:px-28">
     <div class="justify-between py-20 relative">
-      <div class="w-2/3 relative">
-        <div class="text-8xl z-30 relative">
+      <div class="md:w-2/3 relative">
+        <div class="lg:text-8xl text-xl relative">
           Healthy Eating is important part of lifestyle
         </div>
         <p class="mt-5">
@@ -10,22 +10,33 @@
           arcu
         </p>
       </div>
-      <div class="flex justify-end -top-60 relative">
+      <div class="md:flex justify-end -top-60 relative">
         <div class="relative">
           <img
             data-aos="fade-left"
             src="/assets/Image.png"
-            width="792"
-            class="h-[931px] z-10"
+            class="h-[931px] w-full z-10 object-cover"
             alt="food"
           />
           <div
             data-aos="fade-right"
-            class="absolute -bottom-10 -left-72 flex gap-11"
+            class="md:absolute -bottom-10 -left-72 lg:flex gap-11 justify-center items-center"
           >
-            <img src="/assets//spices1.png" alt="" class="object-cover w-52" />
-            <img src="/assets//spices2.png" alt="" class="object-cover w-52" />
-            <img src="/assets//spices3.png" alt="" class="object-cover w-52" />
+            <img
+              src="/assets//spices1.png"
+              alt=""
+              class="object-cover w-10/12 m-auto md:w-52"
+            />
+            <img
+              src="/assets//spices2.png"
+              alt=""
+              class="object-cover w-10/12 m-auto md:w-52"
+            />
+            <img
+              src="/assets//spices3.png"
+              alt=""
+              class="object-cover w-10/12 m-auto md:w-52"
+            />
           </div>
         </div>
       </div>
@@ -33,9 +44,9 @@
         data-aos="fade-down"
         data-aos-easing="linear"
         data-aos-duration="1500"
-        class="absolute bottom-20"
+        class="absolute bottom-20 hidden md:block"
       >
-        <span class="rotate-90 inline-block -ml-5">
+        <span class="lg:rotate-90 inline-block lg:-ml-5">
           <span>Scroll</span>
         </span>
         <img src="/assets/Line 8.png" alt="" class="mt-7" />

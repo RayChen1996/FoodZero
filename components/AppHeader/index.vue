@@ -2,7 +2,7 @@
   <div>
     <div class="bg-primary text-white py-[47px]">
       <header class="flex justify-around">
-        <div class="flex gap-11">
+        <div class="flex justify-around lg:gap-11">
           <nuxt-link to="/">
             <img src="/assets/Logo.svg" width="150" />
           </nuxt-link>
@@ -11,7 +11,7 @@
             <img src="/assets/NaviOpen.svg" />
           </button>
         </div>
-        <div class="flex items-center gap-3">
+        <div class="items-center gap-3 hidden lg:flex">
           <span>+86 852 346 000</span>
           <nuxt-link to="/contact">
             <button class="border px-[46px] py-5 hover:bg-primary-100">
@@ -26,7 +26,7 @@
       class="w-screen h-screen bg-transparent overflow-hidden"
     >
       <div class="relative">
-        <button class="btn-circle left-3 top-3 relative bg-white">
+        <button class="left-3 top-3 relative">
           <img
             src="/assets/NaviClose.svg"
             alt="Close"
@@ -40,8 +40,10 @@
           alt="Menu Background"
         />
         <div class="h-screen w-full bg-[#233000]/80 relative py-12">
-          <div class="flex justify-between items-end relative">
-            <div class="flex justify-center items-center w-1/2">
+          <div
+            class="md:flex text-center md:text-left justify-between items-end relative"
+          >
+            <div class="md:flex justify-center items-center w-1/2">
               <ul class="flex flex-col gap-14 text-5xl">
                 <nuxt-link to="/">
                   <li class="hover:text-primary-100" @click="clickCloseMenu">

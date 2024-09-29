@@ -1,6 +1,6 @@
 <template>
-  <div class="container">
-    <div class="relative flex items-center justify-between">
+  <div class="container py-11">
+    <div class="relative flex items-center justify-between py-11">
       <p class="text-black text-4xl block w-4/5">
         “ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem
         id penatibus imperdiet. Turpis egestas ultricies purus Lorem ipsum dolor
@@ -8,13 +8,13 @@
       </p>
       <img
         src="/assets//postdeco.svg"
-        class="absolute right-2 top-2 flex-1"
+        class="absolute right-2 top-2 w-28 flex-1"
         alt=""
       />
     </div>
     <div class="flex items-center justify-between mt-8">
-      <div class="flex items-center">
-        <img src="/assets//Avatar3.png" alt="" />
+      <div class="flex items-center gap-3">
+        <img src="/assets//Avatar3.png" class="w-20" alt="" />
         <div>
           <span>John Doe</span>
           <div>Bloger</div>

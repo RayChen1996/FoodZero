@@ -1,6 +1,5 @@
 <template>
-  <div class="flex flex-col min-h-dvh bg-white">
-    <!-- <AppHeader /> -->
+  <div class="flex flex-col min-h-dvh">
     <div class="flex-1">
       <HomeBlock1 />
       <HomeBlock2 />
@@ -12,7 +11,6 @@
       <HomeEnergy />
       <HomeFeedback />
     </div>
-    <!-- <AppFooter /> -->
   </div>
 </template>
 <script setup>

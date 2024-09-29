@@ -1,6 +1,6 @@
 <template>
   <div class="bg-primary text-white">
-    <footer class="flex justify-around mt-[132px]">
+    <footer class="md:flex justify-around mt-[132px]">
       <div class="text-7xl">
         <div>Food</div>
         <div>Zero.</div>
@@ -12,7 +12,7 @@
       </div>
       <div>
         <div class="mb-[25px] text-3xl">Never Miss a Recipe</div>
-        <div class="flex gap-7 items-center mb-3">
+        <div class="md:flex gap-7 items-center mb-3">
           <input
             type="text"
             class="border px-10 py-[30px] bg-primary w-full"
@@ -23,7 +23,7 @@
         <p>Join our subscribers and get best recipe delivered each week!</p>
       </div>
     </footer>
-    <footer class="flex justify-around mt-[58px] mb-[74px]">
+    <footer class="md:flex justify-around mt-[58px] mb-[74px]">
       <span>© 2020 Zero Inc. All rights Reserved</span>
       <div class="flex gap-7">
         <img src="/assets/Icon_instagram.svg" alt="instagram" />
