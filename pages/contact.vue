@@ -77,10 +77,76 @@
     <!-- contact Form -->
     <div class="relative py-10 m-auto text-center bg-primary-200">
       <LazyPageTitle
+        hasDeco
         title="Make a Reservation"
         sub-title="Get in touch with restaurant"
       />
-      <div class=" "></div>
+      <div class="container">
+        <form>
+          <div
+            class="grid grid-cols-1 md:grid-cols-2 lg:gap-12 gap-6 mb-6 lg:mb-12"
+          >
+            <input
+              type="text"
+              placeholder="First Name"
+              class="input input-md input-bordered rounded-none bg-white border-black"
+            />
+            <input
+              type="text"
+              placeholder="Last Name"
+              class="input input-md input-bordered rounded-none bg-white border-black"
+            />
+          </div>
+
+          <div class="grid grid-cols-1 lg:gap-12 gap-6 mb-6 lg:mb-12">
+            <input
+              type="text"
+              placeholder="Email"
+              class="input input-md input-bordered rounded-none bg-white border-black"
+            />
+          </div>
+
+          <div class="grid grid-cols-1 lg:gap-12 gap-6 mb-6 lg:mb-12">
+            <input
+              type="text"
+              placeholder="Phone"
+              class="input input-md input-bordered rounded-none bg-white border-black"
+            />
+          </div>
+
+          <div
+            class="grid grid-cols-1 md:grid-cols-2 lg:gap-12 gap-6 mb-6 lg:mb-12"
+          >
+            <select
+              class="select bg-white select-bordered border-black rounded-none"
+            >
+              <option value="" selected>16/22/2021</option>
+            </select>
+            <select
+              class="select bg-white select-bordered border-black rounded-none"
+            >
+              <option value="" selected>6:00 pm</option>
+            </select>
+          </div>
+
+          <div class="grid grid-cols-1 lg:gap-12 gap-6 mb-6 lg:mb-12">
+            <select
+              class="select bg-white select-bordered border-black rounded-none"
+            >
+              <option value="" selected>2 Person</option>
+            </select>
+          </div>
+
+          <div class=" ">
+            <button
+              type="button"
+              class="btn bg-primary-100 text-white rounded-none border border-black hover:bg-primary-50"
+            >
+              Book Now
+            </button>
+          </div>
+        </form>
+      </div>
     </div>
   </div>
 </template>
