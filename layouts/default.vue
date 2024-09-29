@@ -1,20 +1,15 @@
+<!-- layouts/default.vue -->
 <template>
   <div class="flex flex-col min-h-dvh bg-white">
-    <!-- <AppHeader /> -->
+    <AppHeader />
     <div class="flex-1">
-      <HomeBlock1 />
-      <HomeBlock2 />
-      <HomeMenu />
-      <HomeExcellent />
-      <HomeFeature />
-      <HomePost />
-      <HomeReservation />
-      <HomeEnergy />
-      <HomeFeedback />
+      <NuxtPage />
     </div>
-    <!-- <AppFooter /> -->
+
+    <AppFooter />
   </div>
 </template>
+
 <script setup>
 import AOS from "aos";
 import "aos/dist/aos.css";

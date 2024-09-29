@@ -6,13 +6,13 @@
         <div>Zero.</div>
       </div>
       <div>
-        <div>Contact</div>
+        <div class="text-3xl">Contact</div>
         <div>+1+86 852 346 000 info@foodzero.com</div>
         <div>1959 Sepulveda Blvd. Culver City, CA, 90230</div>
       </div>
       <div>
-        <div class="mb-[55px]">Never Miss a Recipe</div>
-        <div class="flex gap-7 items-center">
+        <div class="mb-[25px] text-3xl">Never Miss a Recipe</div>
+        <div class="flex gap-7 items-center mb-3">
           <input
             type="text"
             class="border px-10 py-[30px] bg-primary w-full"
