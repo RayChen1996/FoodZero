@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div class="bg-primary text-white py-[47px]">
+  <div class="sticky top-0 z-50 backdrop-blur-md">
+    <div :class="headerClass">
       <header class="flex justify-around">
         <div class="flex justify-around lg:gap-11">
           <nuxt-link to="/">
@@ -102,7 +102,8 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from "vue";
+import { ref, computed } from "vue";
+import { useRoute } from "#app";
 
 // 追踪模態窗口是否打開
 const menuOpen = ref(false);
@@ -110,11 +111,10 @@ const menuOpen = ref(false);
 // 引用 dialog 元素
 const dialog = ref<HTMLDialogElement | null>(null);
 
-// 打開模態窗口
 const clickOpenMenu = () => {
   menuOpen.value = true;
   if (dialog.value) {
-    dialog.value.showModal(); // 使用 ref 引用來顯示模態窗口
+    dialog.value.showModal();
   }
 };
 
@@ -122,7 +122,14 @@ const clickOpenMenu = () => {
 const clickCloseMenu = () => {
   menuOpen.value = false;
   if (dialog.value) {
-    dialog.value.close(); // 使用 ref 引用來關閉模態窗口
+    dialog.value.close();
   }
 };
+
+const route = useRoute();
+const headerClass = computed(() => {
+  return route.path === "/"
+    ? "bg-primary text-white py-[47px]"
+    : "bg-transparent py-[47px]  text-white";
+});
 </script>

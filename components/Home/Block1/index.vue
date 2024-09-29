@@ -1,16 +1,16 @@
 <template>
   <div class="bg-primary text-white lg:px-28">
     <div class="justify-between py-20 relative">
-      <div class="md:w-2/3 relative">
+      <div class="md:w-2/3 w-full relative">
         <div class="lg:text-8xl text-xl relative">
           Healthy Eating is important part of lifestyle
         </div>
-        <p class="mt-5">
+        <p class="mt-5 block w-full">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque congue
           arcu
         </p>
       </div>
-      <div class="md:flex justify-end -top-60 relative">
+      <div class="md:flex justify-end md:-top-60 md:relative">
         <div class="relative">
           <img
             data-aos="fade-left"

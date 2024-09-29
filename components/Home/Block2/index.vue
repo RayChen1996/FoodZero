@@ -3,7 +3,7 @@
     <div data-aos="fade-right">
       <img src="/assets/Image2.png" alt="" />
       <div class="text-5xl my-14">Start to plan your diet today</div>
-      <p>
+      <p class="block w-full">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque congue
         arcu
       </p>
@@ -13,7 +13,7 @@
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque congue
         arcu
       </div>
-      <img src="/assets/Image3.png" class="w-full" alt="" />
+      <img src="/assets/Image3.png" alt="" />
     </div>
   </div>
 </template>
