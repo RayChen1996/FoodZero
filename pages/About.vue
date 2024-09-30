@@ -25,9 +25,11 @@
         <div>
           <div>
             <div class="text-4xl lg:text-6xl text-black">Our Story <br /></div>
-            <p>
+            <p class="text-black">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus
+              <br />
               lorem id penatibus imperdiet. Turpis egestas ultricies purus
+              <br />
               auctor tincidunt lacus nunc.
             </p>
           </div>
@@ -42,11 +44,34 @@
         <img src="/assets/AboutImage2.png" alt="" />
         <div>
           <div>
-            <div class="text-4xl lg:text-6xl text-black"></div>
+            <div class="text-base text-black">
+              Lorem ipsum dolor sit amet, consectetur <br />
+              adipiscing elit. Et in sed in pellentesque ornare <br />
+              nunc nisl.
+            </div>
           </div>
         </div>
       </div>
     </div>
+
+    <div class="relative py-10 m-auto text-center">
+      <div
+        class="grid grid-cols-1 md:grid-cols-2 text-left gap-x-5 lg:gap-x-[102px] place-items-center"
+      >
+        <div>
+          <div>
+            <div class="text-base text-black">
+              Lorem ipsum dolor sit amet, consectetur <br />
+              adipiscing elit. Et in sed in pellentesque ornare <br />
+              nunc nisl. Augue habitant accumsan, ut <br />
+              parturient orci ac etiam congue mi.
+            </div>
+          </div>
+        </div>
+        <img src="/assets/AboutImage3.png" alt="" />
+      </div>
+    </div>
+
     <HomeReservation />
   </div>
 </template>
