@@ -1,5 +1,5 @@
 <template>
-  <div class="container py-11">
+  <div class="container py-11 px-10">
     <div class="grid grid-cols-1 md:grid-cols-2 gap-x-4 lg:gap-x-16 text-black">
       <div data-aos="flip-left">
         <figure class="relative">

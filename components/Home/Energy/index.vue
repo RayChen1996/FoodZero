@@ -1,5 +1,5 @@
 <template>
-  <div class="container text-center py-32">
+  <div class="container text-center py-32 px-6">
     <div>
       <PageTitle
         title="Calories Energy Balance"

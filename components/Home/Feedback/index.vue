@@ -1,5 +1,5 @@
 <template>
-  <div class="container py-11">
+  <div class="container py-11 px-10 md:px-3">
     <div class="relative flex items-center justify-between py-11">
       <p class="text-black text-4xl block w-4/5">
         “ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem

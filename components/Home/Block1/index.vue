@@ -2,10 +2,10 @@
   <div class="bg-primary text-white lg:px-28">
     <div class="justify-between py-20 relative">
       <div class="md:w-2/3 w-full relative">
-        <div class="lg:text-8xl text-xl relative">
+        <div class="lg:text-8xl text-xl relative z-30">
           Healthy Eating is important part of lifestyle
         </div>
-        <p class="mt-5 block w-full">
+        <p class="mt-5 block w-full z-30 relative">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque congue
           arcu
         </p>
